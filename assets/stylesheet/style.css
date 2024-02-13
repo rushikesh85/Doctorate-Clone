@@ -1,0 +1,1053 @@
+/* @import 'reset.css'; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    width: 100%;
+}
+
+.heroImage {
+    width: 100%;
+}
+
+.heroImage img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.heroContent {
+    position: absolute;
+    width: 31%;
+    top: 0;
+    margin-top: 150px;
+    margin-left: 170px;
+}
+
+.headingWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.heroContent h1 {
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: -.01em;
+    line-height: 70px;
+}
+
+.heroContent P {
+    font-family: 'DM Sans', sans-serif;
+    padding-bottom: 20px;
+    font-size: 19px;
+}
+
+.heroContent h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.commonButton {
+    letter-spacing: 1px;
+    border: none;
+    color: rgb(244, 244, 244);
+    padding: 20px 30px;
+    border-radius: 15px;
+    background-color: #3E8DFE;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.commonButton:hover {
+    color: black;
+    background-color: transparent;
+    border: 2px solid #3E8DFE;
+    cursor: pointer;
+}
+
+
+/* ================================= About Us Section ================================= */
+
+.aboutUs {
+    width: 100%;
+    background-color: #F2FBFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutUs_content {
+    width: 40%;
+    margin-right: 10%;
+    /* margin-left: 10%; */
+    margin-top: 400px;
+    padding: 35px;
+
+}
+
+.aboutUsImage {
+    width: 48%;
+    margin-left: 10%;
+    margin-top: 400px;
+}
+
+.aboutUsImage img {
+    width: 100%;
+}
+
+.aboutUs_header {
+    padding-bottom: 10px;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+}
+
+.aboutUs_header h4 {
+    color: #3E8DFE;
+    margin-left: 8px;
+}
+
+.aboutUs_content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-size: 700;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+.aboutUs_content p {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.aboutUs_content_card {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 20px;
+    height: 260px;
+    background-color: #06306F;
+}
+
+.cardContentWrap {
+    margin-bottom: 18px;
+    display: flex;
+}
+
+.aboutUs_content_card img {
+    width: 30px;
+    height: 30px;
+}
+
+.cardContent_item {
+    display: flex;
+    list-style-type: none;
+}
+
+.cardContent ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 16px;
+}
+
+.cardContent_item {
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    padding-bottom: 16px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.cardContent_item img {
+    margin-right: 12px;
+}
+
+.appointmentBtn {
+    padding: 28px 0px;
+}
+
+.appointmentBtn:hover {
+    color: white;
+}
+
+/* ================================= Floating Card ================================= */
+.floatCardContainer {
+    position: absolute;
+    top: 960px;
+    left: 10%;
+    width: 75%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.floatCardContent img {
+    background-color: #3F8DFF;
+    padding: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 90px;
+
+}
+
+.floatCardContainer {
+    display: flex;
+    padding: 70px 40px;
+}
+
+.floatCardContent {
+    width: 33%;
+    display: flex;
+    margin-right: 10px;
+}
+
+.floatContent {
+    margin-left: 10px;
+}
+
+.floatContent h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.floatContent p {
+    color: #545554;
+    margin-bottom: 16px;
+    font-size: 19px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.floatContent a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2.5px solid #3F8DFF;
+}
+
+.floatContent a:hover {
+    color: #3F8DFF;
+}
+
+@media screen and (max-width: 1440px) {
+    .floatCardContainer {
+        top: 920px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .heroContent {
+        margin-left: 40px;
+        width: 40%;
+    }
+
+    .floatCardContainer {
+        width: 85%;
+        top: 630px;
+        left: 4%;
+    }
+
+    .aboutUsImage {
+        margin-left: 1%;
+        margin-right: 0;
+    }
+
+    .aboutUs_content {
+        margin-right: 0%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heroContent {
+        width: 90%;
+        margin-top: 100px;
+        padding: 15px;
+    }
+
+    .floatCardContainer {
+        display: flex;
+        top: 480px;
+        /* justify-content: space-between; */
+        flex-direction: column;
+    }
+
+    .floatCardContent {
+        width: 80%;
+        padding-bottom: 50px;
+        /* padding: 30px 20px 60px 40px; */
+    }
+
+    .aboutUs {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .aboutUs_content {
+        width: 90%;
+        margin-right: 3%;
+        margin-top: 730px;
+        /* padding: 10px; */
+    }
+
+    .aboutUs_content h2 {
+        font-size: 30px;
+        width: 60%;
+    }
+
+    .cardContentWrap {
+        flex-direction: column;
+    }
+
+    .cardContent_item {
+        padding-bottom: 7px;
+    }
+
+    .aboutUsImage {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .heroContent {
+        width: 90%;
+        margin-top: 50px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .headingWrapper h3 {
+        font-size: 13px;
+    }
+
+    .heroContent h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .heroContent p {
+        font-size: 17px;
+    }
+
+    .heroImage {
+        width: 100%;
+        height: 400px;
+    }
+
+    .heroImage img {
+        height: 100%;
+    }
+
+    .floatCardContainer {
+        width: 70%;
+        top: 380px;
+        padding-bottom: 10px;
+    }
+
+    .floatCardContent {
+        flex-direction: column;
+    }
+
+    .floatCardContent img {
+        margin-bottom: 10px;
+    }
+
+    .aboutUs_content {
+        margin-top: 85rem;
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+
+    .aboutUs_content h2 {
+        font-size: 25px;
+        width: 90%;
+        line-height: 30px;
+    }
+
+    .aboutUs_content p {
+        font-size: 17px;
+    }
+
+    .aboutUs_content_card {
+        padding: 20px;
+    }
+
+    .aboutUs_content h4 {
+        font-size: 18px;
+    }
+}
+
+
+/* ================================= Departments ================================= */
+.department {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 90px;
+    align-items: center;
+}
+
+.departmentHeading {
+    justify-content: space-between;
+    display: flex;
+}
+
+.departmentlogo {
+    display: flex;
+}
+
+.departmentLeftSec {
+    flex-direction: column;
+}
+
+.departmentlogo h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 10px;
+    color: #3F8DFF;
+}
+
+.departmentHeading h2 {
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.serviceButton {
+    padding: 29px 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    .department {
+        width: 95%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .departmentHeading h2 {
+        font-size: 32px;
+        width: 60%;
+    }
+
+    .serviceButton {
+        margin-top: 30px;
+        margin-right: 35px;
+        padding: 26px 80px;
+
+    }
+
+    .department {
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 385px) {
+    .departmentHeading {
+        flex-direction: column;
+    }
+
+    .departmentLeftSec h2 {
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .serviceButton {
+        margin-top: 10px;
+    }
+
+    .department {
+        padding-right: 0px;
+    }
+
+
+
+}
+
+/* <!-- ================================= Services Grid ================================= --> */
+.servicesGrid {
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 90px;
+    padding-bottom: 100px;
+}
+
+.serviceContent {
+    position: relative;
+    padding: 60px 25px 40px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #F2FBFF;
+    border: 2px solid #f3faff;
+}
+
+.serviceContent:hover {
+    border: 2px solid #3F8DFF;
+    background-color: transparent;
+
+}
+
+.serviceContent h2 {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    margin: 20px 0px 10px 0px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.serviceContent h2:hover {
+    cursor: pointer;
+    color: #3F8DFF;
+}
+
+.serviceContent p {
+    font-family: 'DM Sans', sans-serif;
+    padding-bottom: 20px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.serviceContent a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid #3F8DFF;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.serviceContent a:hover {
+    color: #3F8DFF;
+}
+
+.serviceIcon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+    margin-right: auto;
+    background-color: #3E8DFE;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 16px 1px rgb(139, 119, 112, .3);
+    top: -13%;
+}
+
+@media screen and (max-width: 1024px) {
+    .servicesGrid {
+        width: 90%;
+    }
+
+    .serviceIcon {
+        margin-left: 72px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .servicesGrid {
+        grid-template-columns: repeat(2, 1fr);
+        height: 1100px;
+    }
+
+    .serviceIcon {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .servicesGrid {
+        grid-template-columns: 1fr;
+        height: 2280px;
+        padding-top: 60px;
+        margin-top: 20px;
+    }
+}
+
+
+/* <!-- ================================= Appointment  ================================= --> */
+.appointment_section {
+    background-color: #07306E;
+    width: 100%;
+    display: flex;
+}
+
+.appointment_header {
+    display: flex;
+    padding-bottom: 13px;
+}
+
+.appointment_header h4 {
+    color: #3F81D9;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.appointment_content {
+    grid-template-columns: repeat(2, 1fr);
+    width: 33%;
+    margin-left: 10%;
+    padding-right: 60px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.appointment_content h2 {
+    color: #FFFEFE;
+    font-size: 40px;
+    padding-bottom: 18px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.appointment_content p {
+    color: #FFFEFE;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.informationSection {
+    width: 50%;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    padding-top: 90px;
+    height: 120px;
+    width: 40%;
+}
+
+.inputBlock {
+    width: 220px;
+    margin-right: 75px;
+    display: block;
+    position: relative;
+}
+
+.inputBlock input {
+    border-radius: 20px;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inputBlock img {
+    padding-top: 19px;
+    padding-left: 14px;
+    position: absolute;
+}
+
+.inputBlock input::placeholder {
+    color: rgb(75, 74, 74);
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.input-field {
+    padding-left: 50px;
+    background-color: rgb(254, 254, 254);
+    outline: none;
+}
+
+.appointmentBtnSection {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.bookAppointment {
+    padding: 16px 30px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid #3E8DFE;
+}
+
+.bookAppointment:hover {
+    color: white;
+}
+
+.orText {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.callSection {
+    height: 35px;
+    width: 33px;
+    margin-left: 20px;
+    padding: 10px;
+    border: 2px solid #3E8DFE;
+    border-radius: 16px;
+}
+
+.callIcon {
+    padding-top: 4px;
+}
+
+.appointmentBtnSection a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+
+}
+
+.appointmentBtnSection a:hover {
+    cursor: pointer;
+    color: #3E8DFE;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .appointment_content {
+        margin-left: 20px;
+        width: 50%;
+    }
+
+    .inputBlock {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .appointment_section {
+        flex-direction: column;
+    }
+
+    .appointment_content {
+        width: 90%;
+        padding-bottom: 10px;
+    }
+
+    .appointment_content h2 {
+        font-size: 36px;
+        width: 70%;
+    }
+
+    .appointment_content p {
+        width: 85%;
+        line-height: 30px;
+    }
+
+    .informationSection {
+        width: 90%;
+        margin-left: 5%;
+        padding-bottom: 70px;
+    }
+
+    .inputBlock {
+        width: 280px;
+    }
+
+    .information {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .information {
+        grid-template-columns: 2fr;
+    }
+
+    .appointmentBtnSection {
+        flex-direction: column;
+        margin-top: 220px;
+    }
+
+    .appointment_content h2 {
+        font-size: 25px;
+        width: 90%;
+    }
+
+    .appointment_content {
+        padding-right: 0px;
+    }
+
+    .appointment_content p {
+        width: 95%;
+        font-size: 17px;
+    }
+
+    .appointment_section {
+        height: 1000px;
+    }
+}
+
+/* <!-- ================================= Consulting Section  ================================= --> */
+.gridlayout {
+    display: grid;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    margin-left: 148px;
+    margin-right: 148px;
+}
+
+.consultingGrid {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.subTitle {
+    display: flex;
+}
+
+.subTitle h2 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    color: #3E8DFE;
+    padding-left: 10px;
+    letter-spacing: 1.5px;
+}
+
+.consultHeading {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    line-height: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.sectionParagraph {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #555;
+    width: 90%;
+}
+
+.linksContainer {
+    margin-left: 56px;
+    display: flex;
+    text-decoration: none;
+    background-color: #F3FAFF;
+    border: 1px solid #3E8DFE;
+    margin-bottom: 10px;
+    height: 70px;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 30px;
+    width: 85%;
+}
+
+.linksContainer:hover {
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 4px 9px -7px #222;
+}
+
+.consultLink {
+    padding-left: 18px;
+    font-size: 19px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    color: #2B1514;
+}
+
+.consultArrow {
+    background-color: #3E8DFE;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 435px;
+    width: 55px;
+    height: 55px;
+}
+
+.arrowicon {
+    text-align: center;
+    padding-top: 8px;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    height: 10px;
+}
+
+.consultVideo {
+    border-radius: 20px;
+    height: 320px;
+}
+
+.consultVideoOne {
+    background-image: url(../images/doc\ 1.jpg);
+    background-size: 610px;
+    margin-top: 30px;
+}
+
+.consultVideoTwo {
+    background-image: url(../images/doc2.jpg);
+    background-size: 610px;
+    margin-top: 30px;
+}
+
+.videoContent {
+    border-radius: 20px;
+    width: 21%;
+    height: 120px;
+    padding: 100px 25px 100px;
+    background-color: #3F81D9;
+    align-items: center;
+}
+
+.videoContent h3 {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.videoContent a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+.videoTime {
+    padding-left: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1024px) {
+    .gridlayout {
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+
+    .consultArrow {
+        margin-left: 338px;
+    }
+
+    .videoContent {
+        width: 24%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .gridlayout {
+        grid-template-columns: 2fr;
+    }
+
+    .sectionParagraph {
+        width: 100%;
+    }
+
+    .linksContainer {
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    .consultArrow {
+        margin-left: 610px;
+    }
+
+    .consultVideoOne {
+        background-image: url(../images/doc\ 1.jpg);
+        background-size: 730px;
+        margin-top: 30px;
+    }
+
+    .consultVideoTwo {
+        background-image: url(../images/doc2.jpg);
+        background-size: 730px;
+        margin-top: 30px;
+    }
+
+    .consultHeading {
+        font-size: 30px;
+        line-height: 35px;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 385px) {
+
+    .consultArrow,
+    .arrowicon {
+        display: none;
+    }
+
+    .consultHeading {
+        font-size: 25px;
+    }
+
+    .linksContainer {
+        height: 50px;
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    .consultVideo {
+        width: 100%;
+    }
+
+    .consultingGrid {
+        margin-right: 0px;
+        margin-left: 2px;
+    }
+
+    .videoContent {
+        width: 38%;
+    }
+
+    .consultVideoOne {
+        background-image: url(../images/doc\ 1.jpg);
+        background-size: 450px 320px;
+        margin-top: 30px;
+
+    }
+
+    .consultVideoTwo {
+        background-image: url(../images/doc2.jpg);
+        background-size: 450px 320px;
+        margin-top: 30px;
+    }
+}
