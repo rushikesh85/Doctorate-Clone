@@ -1053,6 +1053,7 @@
 }
 
 
+/* <!-- ================================= header Section  ================================= --> */
 
 . {
     background-color: rgb(243, 250, 255);
@@ -1290,6 +1291,183 @@ header {
 
 }
 
+/* <!-- ================================= testimonial Section  ================================= --> */
+
+
+.testimonials {
+    background-color: #F2FBFF;
+}
+
+.Content {
+    display: flex;
+}
+
+.Content h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #3E8CFF;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 10px;
+}
+
+.mainContent {
+    padding-top: 110px;
+    margin-left: 170px;
+    margin-right: 120px;
+}
+
+.info {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'poppins', sans-serif;
+    margin-top: 2px;
+}
+
+.arrows {
+    margin-left: 950px;
+    margin-top: 40px;
+    position: absolute;
+    height: 50px;
+    width: 180px;
+    display: flex;
+}
+
+.imgcontainer {
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 19px;
+    border: 1px solid #ffffff;
+
+}
+
+.quoteimg {
+    padding-left: 20px;
+}
+
+.imgcontainer:hover {
+    cursor: pointer;
+    border: 1px solid #3E8CFF;
+}
+
+.sideArrow {
+    padding-top: 17px;
+    padding-left: 17px;
+}
+
+
+.test-Wrapper {
+    width: 90%;
+    margin-left: 150px;
+    padding-top: 60px;
+    display: flex;
+}
+
+.testQuote {
+    width: 25%;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 25px;
+    background-color: white;
+    height: 310px;
+    margin-bottom: 100px;
+}
+
+.description P {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    width: 80%;
+    padding-left: 20px;
+}
+
+.testimonialBio2 {
+    display: flex;
+}
+
+.userImg {
+    margin-right: 20px;
+    height: 70px;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.t1-image h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.t1-image {
+    margin-top: 15px;
+}
+
+.starimg {
+    padding-left: 0;
+}
+
+.client-job-position {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 5px;
+}
+
+@media screen and (max-width:1024px) {
+    .mainContent {
+        margin-left: 20px;
+    }
+
+    .arrows {
+        margin-left: 750px;
+    }
+
+    .test-Wrapper {
+        margin-left: 20px;
+    }
+
+    .testQuote {
+        height: 400px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .arrows {
+        display: none;
+    }
+
+    .info {
+        font-size: 32px;
+    }
+
+    .testQuote3 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:770px) {
+
+    .testQuote2,
+    .testQuote3 {
+        display: none;
+    }
+
+    .info {
+        font-size: 27px;
+        width: 150%;
+    }
+
+    .test-Wrapper {
+        margin-left: 0px;
+    }
+}
+
+
+/* <!-- ================================= Footer Section  ================================= --> */
 
 .mainfooter {
     background-color: #07306E;
