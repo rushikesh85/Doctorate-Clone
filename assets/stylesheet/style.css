@@ -26,6 +26,7 @@
 }
 
 .headingWrapper {
+    margin-top: 200px;
     display: flex;
     align-items: center;
 }
@@ -82,7 +83,7 @@
     width: 40%;
     margin-right: 10%;
     /* margin-left: 10%; */
-    margin-top: 400px;
+    margin-top: 200px;
     padding: 35px;
 
 }
@@ -90,7 +91,7 @@
 .aboutUsImage {
     width: 48%;
     margin-left: 10%;
-    margin-top: 400px;
+    margin-top: 200px;
 }
 
 .aboutUsImage img {
@@ -166,11 +167,12 @@
     margin-right: 12px;
 }
 
-.appointmentBtn {
-    padding: 28px 0px;
+.appointmentBtn1 {
+    padding: 28px 70px;
+    border: 2px solid #3F8DFF;
 }
 
-.appointmentBtn:hover {
+.appointmentBtn1:hover {
     color: white;
 }
 
@@ -1055,9 +1057,6 @@
 
 /* <!-- ================================= header Section  ================================= --> */
 
-* {
-    background-color: rgb(243, 250, 255);
-}
 
 header {
     width: 100%;
@@ -1071,7 +1070,7 @@ header {
     padding-right: 90px;
     align-items: center;
     border-bottom: 2px solid rgba(169, 169, 169, 0.322);
-    padding-top: 0;
+    padding-top: 30px;
 }
 
 .headingLogo {
@@ -1206,11 +1205,12 @@ header {
 .dropdownbtn {
     border: none;
     border-radius: 5px;
+    background-color: transparent;
     padding-right: 45px;
     padding-top: 15px;
     font-size: 18px;
     cursor: pointer;
-    font-family: Poppins, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 18px;
 
@@ -1581,6 +1581,8 @@ header {
 
 .footerContactAddress {
     display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footerContactAddress h2 {
@@ -1589,6 +1591,7 @@ header {
     font-family: 'DM Sans', sans-serif;
 
 }
+
 
 .emailStyle:hover {
     color: #3E8CFF;
@@ -1662,5 +1665,276 @@ header {
     .appointmentFooter h2 {
         font-size: 21px;
     }
+}
+
+/* <!-- ================================= Articles ================================= --> */
+*{
+    margin: 0;
+    padding: 0;
+}
+.numbergridContainer {
+    background-color: #06316E;
+}
+
+.numberGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.numberCounter {
+    margin-left: 120px;
+    width: 50%;
+}
+
+.numberCounter h3,
+.numText {
+    color: white;
+}
+
+.imgContainer {
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    background-color: #3E8CFF;
+    border-radius: 67px;
+    margin-left: 27px;
+}
+
+.imgContainer img {
+    padding-top: 15px;
+}
+
+.numberCounter h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.numText {
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+@media screen and (max-width:1030px) {
+    .numberCounter {
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    .blogCard {
+        width: 33%;
+    }
+
+    .cardwrapper {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:770px) {
+    .numberCounter {
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    .blogCard {
+        width: 33%;
+    }
+
+    .cardwrapper {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:380px) {
+    .numberCounter {
+        margin-left: 50px;
+        width: 80%;
+        margin-bottom: 30px;
+
+    }
+
+    .numberGrid {
+        grid-template-columns: 1fr;
+        margin-right: 0;
+    }
+
+    .cardwrapper {
+        flex-wrap: wrap;
+        width: 30px;
+    }
+
+    .blogCard {
+        width: 90%;
+        padding: 0px;
+        /* margin: 0; */
+        background-color: black;
+    }
+
+    .blogimg {
+        width: 300px;
+    }
+    .sectionTitle h2{
+        font-size: 30px;
+    }
+
+
+
+}
+
+.ourblog {
+    display: flex;
+    justify-content: center;
+    font-size: 11.5px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.sectionTitle {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'poppins', sans-serif;
+}
+
+.blogSection {
+    padding-top: 110px;
+    background-color: #e7f4f9;
+}
+
+.cardwrapper {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.blogCard {
+    height: 600px;
+    width: 30%;
+    background-color: #FBFAFB;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.blogimg {
+    height: 320px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.blogCard h2,
+.blogCard h3,
+.blogCard p {
+    margin: 20px 10px 10px 30px;
+}
+
+.blogCard h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+}
+
+.blogCard h3 {
+    background-color: #F0F6FF;
+    display: inline-block;
+    border: 1px solid #3E8CFF;
+    color: #3E8CFF;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    padding: 8px 25px;
+    border-radius: 15px;
+}
+
+.blogCard p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nameDate {
+    display: flex;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.nameDate h2 {
+    /* display: block; */
+    width: 110px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 0px;
+    padding-left: 6px;
+    margin-top: 10px;
+    color: #898889;
+}
+
+.nameDate img {
+    padding-left: 20px;
+}
+
+.nameDate1 h2 {
+    width: 120px;
+}
+
+.readmoreBtn {
+    display: inline;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    margin-left: 28px;
+    border-bottom: 3px solid #3E8CFF;
+}
+
+.readmoreBtn:hover {
+    color: #3E8CFF;
+    cursor: pointer;
+}
+
+.blogCard h3:hover {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.635);
+    cursor: pointer;
+}
+
+.articleButton {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.articleButton button {
+    padding: 22px 80px;
+    border-radius: 15px;
+    background-color: #3F8CFE;
+    border: 2px solid #3F8CFE;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.articleButton button:hover {
+    background-color: transparent;
+    border: 2px solid #3F8CFE;
+    color: rgb(2, 2, 2);
 }
 
