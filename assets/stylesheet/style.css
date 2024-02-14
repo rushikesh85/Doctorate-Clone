@@ -1055,7 +1055,7 @@
 
 /* <!-- ================================= header Section  ================================= --> */
 
-. {
+* {
     background-color: rgb(243, 250, 255);
 }
 
@@ -1466,7 +1466,6 @@ header {
     }
 }
 
-
 /* <!-- ================================= Footer Section  ================================= --> */
 
 .mainfooter {
@@ -1651,15 +1650,17 @@ header {
 
 @media screen and (max-width:770px) {
     .footerGrid {
-        grid-template-columns:repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width:380px) {
     .footerGrid {
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
     }
-    .appointmentFooter h2{
-        font-size:21px;
+
+    .appointmentFooter h2 {
+        font-size: 21px;
     }
 }
+
