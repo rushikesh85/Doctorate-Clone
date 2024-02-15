@@ -83,7 +83,7 @@
     width: 40%;
     margin-right: 10%;
     /* margin-left: 10%; */
-    margin-top: 200px;
+    margin-top: 300px;
     padding: 35px;
 
 }
@@ -91,7 +91,7 @@
 .aboutUsImage {
     width: 48%;
     margin-left: 10%;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 .aboutUsImage img {
@@ -179,7 +179,7 @@
 /* ================================= Floating Card ================================= */
 .floatCardContainer {
     position: absolute;
-    top: 960px;
+    top: 990px;
     left: 10%;
     width: 75%;
     height: auto;
@@ -246,7 +246,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1029px) {
     .heroContent {
         margin-left: 40px;
         width: 40%;
@@ -254,8 +254,10 @@
 
     .floatCardContainer {
         width: 85%;
-        top: 630px;
+        top: 790px;
         left: 4%;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .aboutUsImage {
@@ -277,7 +279,7 @@
 
     .floatCardContainer {
         display: flex;
-        top: 480px;
+        top: 685px;
         /* justify-content: space-between; */
         flex-direction: column;
     }
@@ -320,10 +322,63 @@
     }
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 430px) {
+    .aboutUs_content {
+        padding: 1px;
+        padding-left: 20px;
+        margin-top: 965px;
+    }
+
+    .aboutUs_content h2 {
+        font-size: 25px;
+        width: 90%;
+        line-height: 30px;
+    }
+
+    .appointmentBtn1 {
+        padding: 25px;
+    }
+
+    .floatCardContainer {
+        padding: 1px;
+        padding-top: 40px;
+        padding-left: 20px;
+        top: 480px;
+    }
+
+    .heroContent {
+        margin-left: 10px;
+    }
+
+    .heroContent h1 {
+        font-size: 40px;
+        line-height: 45px;
+        padding-bottom: 5px;
+    }
+
+    .headingWrapper {
+        margin-top: 100px;
+    }
+
+    .headingWrapper h3 {
+        font-size: 15px;
+    }
+
+    .heroContent p {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+
+    .aboutUs_content {
+        margin-top: 870px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
     .heroContent {
         width: 90%;
-        margin-top: 50px;
+        margin-top: 150px;
         margin-left: 10px;
         padding: 5px;
     }
@@ -351,8 +406,8 @@
     }
 
     .floatCardContainer {
-        width: 70%;
-        top: 380px;
+        width: 90%;
+        top: 565px;
         padding-bottom: 10px;
     }
 
@@ -365,7 +420,7 @@
     }
 
     .aboutUs_content {
-        margin-top: 85rem;
+        margin-top: 65rem;
         padding-left: 15px;
         padding-right: 0px;
     }
@@ -386,6 +441,24 @@
 
     .aboutUs_content h4 {
         font-size: 18px;
+    }
+
+    .appointmentBtn1 {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .floatCardContainer {
+        top: 600px;
+    }
+
+    .aboutUs_content_card {
+        padding-bottom: 40px;
+    }
+
+    .aboutUs_content {
+        margin-top: 1200px;
     }
 }
 
@@ -458,7 +531,36 @@
 
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 430px) {
+    .departmentHeading {
+        flex-direction: column;
+    }
+
+    .departmentLeftSec h2 {
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .serviceButton {
+        margin-top: 10px;
+        margin-right: 0;
+        margin-left: 30px;
+    }
+
+    .department {
+        padding-right: 0px;
+    }
+
+    .department {
+        padding-right: 0px;
+    }
+
+    .serviceContent {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 380px) {
     .departmentHeading {
         flex-direction: column;
     }
@@ -478,6 +580,13 @@
 
 
 
+}
+
+@media screen and (max-width: 325px) {
+    .serviceButton {
+        margin-left: 10px;
+        padding: 23px 60px;
+    }
 }
 
 /* <!-- ================================= Services Grid ================================= --> */
@@ -577,12 +686,30 @@
     }
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 430px) {
     .servicesGrid {
         grid-template-columns: 1fr;
-        height: 2280px;
+        height: 2400px;
+
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .servicesGrid {
+        grid-template-columns: 1fr;
+        height: 2533px;
         padding-top: 60px;
         margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .serviceIcon {
+        margin-left: 70px;
+    }
+    .servicesGrid {
+        height: 2560px;
+        
     }
 }
 
@@ -780,7 +907,27 @@
     }
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 430px) {
+    .informationSection {
+        display: block;
+        flex-direction: column;
+    }
+
+    .information {
+        grid-template-columns: 2fr;
+    }
+
+    .appointmentBtnSection {
+        flex-direction: column;
+        margin-top: 220px;
+    }
+
+    .appointment_content {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 380px) {
     .information {
         grid-template-columns: 2fr;
     }
@@ -806,6 +953,12 @@
 
     .appointment_section {
         height: 1000px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .inputBlock {
+        width: 230px;
     }
 }
 
@@ -1010,7 +1163,31 @@
 
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 430px) {
+
+    .consultArrow,
+    .arrowicon {
+        display: none;
+    }
+
+    .consultVideoOne {
+        background-image: url(../images/doc\ 1.jpg);
+        background-size: 430px 350px;
+        margin-top: 30px;
+    }
+
+    .consultVideoTwo {
+        background-image: url(../images/doc2.jpg);
+        background-size: 430px 350px;
+        margin-top: 30px;
+    }
+
+    .videoContent {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 380px) {
 
     .consultArrow,
     .arrowicon {
@@ -1034,6 +1211,7 @@
     .consultingGrid {
         margin-right: 0px;
         margin-left: 2px;
+        padding: 10px 10px;
     }
 
     .videoContent {
@@ -1052,6 +1230,26 @@
         background-size: 450px 320px;
         margin-top: 30px;
     }
+}
+
+@media screen and (max-width: 325px) {
+    .consultLink {
+        font-size: 15px;
+    }
+
+    .consultVideoOne {
+        background-image: url(../images/doc\ 1.jpg);
+        background-size: 330px 320px;
+        margin-top: 30px;
+
+    }
+
+    .consultVideoTwo {
+        background-image: url(../images/doc2.jpg);
+        background-size: 330px 320px;
+        margin-top: 30px;
+    }
+
 }
 
 
@@ -1291,6 +1489,42 @@ header {
 
 }
 
+@media screen and (max-width: 430px) {
+    .heading {
+        flex-direction: column;
+
+    }
+
+    .headingLogo {
+        padding-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    .nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamImage {
+        /* padding-right: 10px; */
+        margin: 0 auto;
+    }
+
+    .heading {
+        flex-direction: column;
+    }
+
+    .headingLogo {
+        padding-bottom: 30px;
+    }
+
+}
+
 /* <!-- ================================= testimonial Section  ================================= --> */
 
 
@@ -1314,6 +1548,11 @@ header {
     padding-top: 110px;
     margin-left: 170px;
     margin-right: 120px;
+}
+
+.mainContent h2 {
+    display: inline;
+
 }
 
 .info {
@@ -1447,9 +1686,23 @@ header {
         display: none;
     }
 
+    .cardwrapper {
+        flex-direction: column;
+    }
+
+    .blogCard {
+        width: 90%;
+    }
+
 }
 
-@media screen and (max-width:770px) {
+@media screen and (max-width:430px) {
+    .testQuote2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:380px) {
 
     .testQuote2,
     .testQuote3 {
@@ -1463,6 +1716,18 @@ header {
 
     .test-Wrapper {
         margin-left: 0px;
+    }
+
+    .mainContent {
+        margin-right: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:325px) {
+    .blogCard h2 {
+        font-size: 8px;
     }
 }
 
@@ -1481,7 +1746,7 @@ header {
     padding-left: 20px;
     padding-right: 20px;
     margin-left: 112px;
-    margin-right: 112px;
+    margin-right: 30px;
 }
 
 .footerLogoImage {
@@ -1654,6 +1919,19 @@ header {
 @media screen and (max-width:770px) {
     .footerGrid {
         grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .footerGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .firstContent,
+    .secondContent,
+    .thirdContent {
+        padding-bottom: 40px;
     }
 }
 
@@ -1668,10 +1946,11 @@ header {
 }
 
 /* <!-- ================================= Articles ================================= --> */
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 .numbergridContainer {
     background-color: #06316E;
 }
@@ -1724,73 +2003,7 @@ header {
 
 }
 
-@media screen and (max-width:1030px) {
-    .numberCounter {
-        margin-left: 50px;
-        width: 80%;
-    }
 
-    .blogCard {
-        width: 33%;
-    }
-
-    .cardwrapper {
-        flex-wrap: wrap;
-    }
-
-}
-
-@media screen and (max-width:770px) {
-    .numberCounter {
-        margin-left: 50px;
-        width: 80%;
-    }
-
-    .blogCard {
-        width: 33%;
-    }
-
-    .cardwrapper {
-        flex-wrap: wrap;
-    }
-
-}
-
-@media screen and (max-width:380px) {
-    .numberCounter {
-        margin-left: 50px;
-        width: 80%;
-        margin-bottom: 30px;
-
-    }
-
-    .numberGrid {
-        grid-template-columns: 1fr;
-        margin-right: 0;
-    }
-
-    .cardwrapper {
-        flex-wrap: wrap;
-        width: 30px;
-    }
-
-    .blogCard {
-        width: 90%;
-        padding: 0px;
-        /* margin: 0; */
-        background-color: black;
-    }
-
-    .blogimg {
-        width: 300px;
-    }
-    .sectionTitle h2{
-        font-size: 30px;
-    }
-
-
-
-}
 
 .ourblog {
     display: flex;
@@ -1817,8 +2030,8 @@ header {
 
 .cardwrapper {
     display: flex;
-    justify-content: center;
-    width: 90%;
+    justify-content: space-between;
+    width: 80%;
     margin: 0 auto;
     height: 100%;
     margin-bottom: 50px;
@@ -1849,6 +2062,11 @@ header {
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     width: 85%;
+}
+
+.blogCard h2:hover {
+    color: #3E8CFF;
+    cursor: pointer;
 }
 
 .blogCard h3 {
@@ -1938,3 +2156,106 @@ header {
     color: rgb(2, 2, 2);
 }
 
+@media screen and (max-width:1030px) {
+    .numberCounter {
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    .blogCard {
+        width: 45%;
+    }
+
+    .cardwrapper {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:770px) {
+    .numberCounter {
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    .blogCard {
+        width: 80%;
+        margin-left: 75px;
+
+    }
+
+    .cardwrapper {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:430px) {
+    .numberGrid {
+        grid-template-columns: 1fr;
+        padding-left: 60px;
+    }
+
+    .numberCounter {
+        padding-bottom: 20px;
+    }
+
+    .cardwrapper {
+        padding-right: 40px;
+    }
+}
+
+
+@media screen and (max-width:380px) {
+    .numberCounter {
+        margin-left: 50px;
+        width: 80%;
+        margin-bottom: 30px;
+
+    }
+
+    .numberGrid {
+        grid-template-columns: 1fr;
+        margin-right: 0;
+    }
+
+    .cardwrapper {
+        flex-wrap: wrap;
+        width: 90%;
+        padding-right: 0;
+    }
+
+    .blogCard {
+        width: 90%;
+        padding: 0px;
+        margin-left: 22px;
+
+        /* margin: 0; */
+        /* background-color: black; */
+    }
+
+    .blogimg {
+        width: 300px;
+    }
+
+    .sectionTitle h2 {
+        font-size: 30px;
+    }
+
+
+
+}
+
+@media screen and (max-width:325px) {
+
+    .blogimg {
+        width: 262px;
+    }
+
+    .numberGrid {
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+}
